@@ -6,14 +6,22 @@
 }
 
 header {
-    height: 58px;
+
     background-color: black;
     font-family: 'Ubuntu', sans-serif;
 
 }
 
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 nav ul li {
     list-style: none;
+    padding: 0 23px;
 
 }
 
