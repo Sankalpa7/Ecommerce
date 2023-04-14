@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+header {
+    height: 12vh;
+    background-color: black;
+    border: 2px solid red;
+}
+
 footer {
     font-family: 'Ubuntu', sans-serif;
     height: 12vh;
