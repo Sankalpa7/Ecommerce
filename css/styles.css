@@ -6,15 +6,26 @@
 }
 
 header {
-    height: 12vh;
+    height: 58px;
     background-color: black;
-    border: 2px solid red;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 footer {
     font-family: 'Ubuntu', sans-serif;
     height: 12vh;
-    background-color: black;
+    background: black;
     color: white;
 
 }
