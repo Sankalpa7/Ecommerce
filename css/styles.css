@@ -29,7 +29,7 @@ nav {
 }
 
 nav ul {
-    height: 58px;
+    height: 68px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -44,6 +44,27 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    /* color: rgb(22, 90, 236); */
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 23px;
+    width: 493px;
+    border-radius: 6px;
+    margin: 0 110px;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
 }
 
 footer {
